@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mini Store</title>
+    <link rel="stylesheet" href="store.css">
+    <style>
+        p {
+            color: #8b0000;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Cozy Corner Store</h1>
+        <p style="color: #006400;"><i>Books, stationery, baking, jewelry and decor, all in one place</i></p>
+    </div>
+
+    <h2>Our Products</h2>
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr class="title-row">
+                    <th colspan="5">Featured Products</th>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="novel.jpg" alt="Novel" width="60"></td>
+                    <td>Mystery Novel</td>
+                    <td>Rs. 650</td>
+                    <td rowspan="2">In Stock</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td><img src="pens.jpg" alt="Gel Pen Set" width="60"></td>
+                    <td>Gel Pen Set</td>
+                    <td>Rs. 300</td>
+                    <td>5/5</td>
+                </tr>
+                <tr>
+                    <td><img src="mould.jpg" alt="Cake Mould" width="60"></td>
+                    <td>Cake Mould Set</td>
+                    <td>Rs. 1200</td>
+                    <td>Limited Stock</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td><img src="necklace.jpg" alt="Necklace" width="60"></td>
+                    <td>Silver Necklace</td>
+                    <td>Rs. 2500</td>
+                    <td>In Stock</td>
+                    <td>5/5</td>
+                </tr>
+                <tr>
+                    <td><img src="vase.jpg" alt="Vase" width="60"></td>
+                    <td>Decorative Vase</td>
+                    <td>Rs. 1800</td>
+                    <td>Out of Stock</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td><img src="piping.jpg" alt="Piping Bag Set" width="60"></td>
+                    <td>Piping Bag Set</td>
+                    <td>Rs. 450</td>
+                    <td>In Stock</td>
+                    <td>3/5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Categories</h2>
+    <ul>
+        <li>Books
+            <ul>
+                <li>Novels</li>
+                <li>Textbooks</li>
+            </ul>
+        </li>
+        <li>Stationery
+            <ul>
+                <li>Pens and Pencils</li>
+                <li>Notebooks</li>
+            </ul>
+        </li>
+        <li>Baking Accessories
+            <ul>
+                <li>Cake Moulds</li>
+                <li>Piping Tools</li>
+            </ul>
+        </li>
+        <li>Jewelry
+            <ul>
+                <li>Necklaces</li>
+                <li>Earrings</li>
+            </ul>
+        </li>
+        <li>Decoration Pieces
+            <ul>
+                <li>Vases</li>
+                <li>Wall Hangings</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Subscribe to Updates</h2>
+    <p>Sign up to hear about new arrivals and offers.</p>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to receive updates</label>
+        <br><br>
+
+        <input type="submit" value="Subscribe">
+    </form>
+
+    <hr>
+
+    <footer>
+        <h3>Quick Links</h3>
+        <a href="https://github.com/your-username/your-repo">My GitHub Repository</a>
+        <br>
+        <a href="../Q2/index.html">Previous Question</a>
+        <p>Thank you for visiting Cozy Corner Store.</p>
+    </footer>
+
+</body>
+</html>

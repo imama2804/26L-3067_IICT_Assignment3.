@@ -1,0 +1,67 @@
+body {
+    background: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: #555;
+}
+
+.table-box {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.title-row th {
+    background: #ffd166;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+td[rowspan] {
+    background: white;
+}
+
+input[type="submit"] {
+    background: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #1f7a70;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
